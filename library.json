@@ -1,6 +1,6 @@
 {
   "name": "ESP_UNO_R4",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "repository":
   {
     "type": "git",
@@ -9,6 +9,6 @@
   "description": "",
   "keywords": "",
   "license": "",
-  "frameworks": "*",
-  "platforms": "*"
+  "frameworks": "arduino",
+  "platforms": "esp32"
 }

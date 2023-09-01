@@ -98,7 +98,7 @@ void cdcLoop(void* param) { while(1) {
     SERIAL_USER.write(buf, i);
   }
 
-  delay(1);
+  vTaskDelay(1);
   //yield();
 }}
 
